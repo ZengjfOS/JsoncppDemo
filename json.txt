@@ -1,0 +1,206 @@
+{
+   "main_menu" : {
+      "apps" : [
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/browser.sh http://processors.wiki.ti.com",
+            "Icon" : "apps/images/web-icon.png",
+            "Lock" : -1,
+            "Name" : "Browser",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/alltest.sh",
+            "Icon" : "apps/images/alltest-icon.png",
+            "Lock" : -1,
+            "Name" : "Information",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/ping.sh",
+            "Icon" : "apps/images/ping-icon.png",
+            "Lock" : -1,
+            "Name" : "Ping",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/backlight.sh",
+            "Icon" : "apps/images/backlight-icon.png",
+            "Lock" : -1,
+            "Name" : "BackLight",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/touch.sh",
+            "Icon" : "apps/images/touch-icon.png",
+            "Lock" : -1,
+            "Name" : "Touch",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/uart.sh",
+            "Icon" : "apps/images/uart-icon.png",
+            "Lock" : -1,
+            "Name" : "Uart",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/i2c.sh",
+            "Icon" : "apps/images/i2c-icon.png",
+            "Lock" : -1,
+            "Name" : "I2c",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/can.sh",
+            "Icon" : "apps/images/can-icon.png",
+            "Lock" : -1,
+            "Name" : "CAN",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/io.sh",
+            "Icon" : "apps/images/io-icon.png",
+            "Lock" : -1,
+            "Name" : "IO",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/usb.sh",
+            "Icon" : "apps/images/usb-icon.png",
+            "Lock" : -1,
+            "Name" : "USB",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/rtc.sh",
+            "Icon" : "apps/images/rtc-icon.png",
+            "Lock" : -1,
+            "Name" : "RTC",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/audio.sh",
+            "Icon" : "apps/images/audio-icon.png",
+            "Lock" : -1,
+            "Name" : "Audio",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/buzzer.sh",
+            "Icon" : "apps/images/buzzer-icon.png",
+            "Lock" : -1,
+            "Name" : "Buzzer",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/led.sh",
+            "Icon" : "apps/images/led-icon.png",
+            "Lock" : -1,
+            "Name" : "LED",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/heatMachine.sh",
+            "Icon" : "apps/images/heatMachine.png",
+            "Lock" : -1,
+            "Name" : "HeatMachine",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/onoff.sh",
+            "Icon" : "apps/images/onoff.png",
+            "Lock" : -1,
+            "Name" : "ON-OFF",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/sd.sh",
+            "Icon" : "apps/images/sd.png",
+            "Lock" : -1,
+            "Name" : "SD",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/demo.sh",
+            "Icon" : "apps/images/demo-icon.png",
+            "Lock" : -1,
+            "Name" : "Demo",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/zengjf.sh",
+            "Icon" : "apps/images/zengjf",
+            "Lock" : -1,
+            "Name" : "zengjf",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         },
+         {
+            "Description_Link" : -1,
+            "Exec" : "/usr/share/web/lighttpd/webpages/shell/zengjf.sh",
+            "Icon" : "apps/images/zengjf",
+            "Lock" : -1,
+            "Name" : "zengjf",
+            "Order" : 999,
+            "ProgramType" : "gui",
+            "Type" : "application"
+         }
+      ]
+   }
+}
