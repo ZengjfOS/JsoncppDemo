@@ -167,6 +167,7 @@ int main(int argc, char *argv[])
 
     Json::Value outRootWithRemove;
     checkAndRemoveAppName(&root, &outRootWithRemove, "Network");
+    checkAndRemoveAppName(&root, &outRootWithRemove, "Browser");
     Json::Value outRootWithRemoveAndAdd;
     checkAndAddUpdateAppByName(&outRootWithRemove, &outRootWithRemoveAndAdd, "zengjf", "zengjf", "zengjf");
 
@@ -178,9 +179,10 @@ int main(int argc, char *argv[])
     std::cout << outputJsonstring << std::endl;
 
     // 目前仅仅是测试，不需要写入文件，省的每次还要去换json.txt文件
-    if ( jsonFileObject.open(QIODevice::WriteOnly| QIODevice::Text) ) {
-        jsonFileObject.write(outputJsonstring.data());
-        jsonFileObject.close();
+    QFile jsonOutFile("output.txt");
+    if ( jsonOutFile.open(QIODevice::WriteOnly| QIODevice::Text) ) {
+        jsonOutFile.write(outputJsonstring.data());
+        jsonOutFile.close();
     } else {
         qDebug() << "Open json file failt." << endl;
         return -1;
