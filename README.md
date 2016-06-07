@@ -1,5 +1,5 @@
 # JsoncppDemo
-尝试解析TI的matrix-gui-v2中json.txt文件而编写的Demo，Json解析器采用jsoncpp。
+尝试在Qt中解析TI的matrix-gui-v2中json.txt文件而编写的Demo，Json解析器采用jsoncpp。
 
 ## 程序运行效果：
 * 如果输入如下json.txt：
