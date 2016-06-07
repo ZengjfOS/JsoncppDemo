@@ -167,7 +167,6 @@ int main(int argc, char *argv[])
 
     Json::Value outRootWithRemove;
     checkAndRemoveAppName(&root, &outRootWithRemove, "Network");
-    checkAndRemoveAppName(&root, &outRootWithRemove, "Browser");
     Json::Value outRootWithRemoveAndAdd;
     checkAndAddUpdateAppByName(&outRootWithRemove, &outRootWithRemoveAndAdd, "zengjf", "zengjf", "zengjf");
 
